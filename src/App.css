@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.cont{
+  margin-top: 70px;
+}
+
+.filters{
+  background-color: #fff;
+  padding-top:3rem;
+  padding-bottom: 3rem; 
+  box-shadow:  0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.contents{
+  background-color: #fff;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  box-shadow:  0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+.control-btn{
+  font-size: 1rem;
+  font-weight: 800;
+  padding: 0.4rem;
+  margin-bottom: 1rem;
+  border: 1px solid #61dafb;
+  box-shadow:  0 4px 7px 0 rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media only screen and (max-width: 768px){
+  .filters{
+    height: 11vh;
+    margin-bottom: 1rem;
+    padding-top:0.5rem;
+    padding-bottom: 0.5rem;
+
+  }
+
+  .cont{
+    margin-top: 64px;
+   
+  }
+  .contents{
+    max-height: 80vh;
+    margin-bottom: 2vh;
+    
+  }
+
+  .product-box{
+     overflow-y: scroll;
+     height: 63vh;
+  }
+
+  .content-heading{
+    margin:0.1rem 0.2rem 0.1rem 0.2rem;
+    
+  }
+
+
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

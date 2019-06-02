@@ -1,0 +1,19 @@
+.filter-cont{
+	width: 12rem;
+	margin:0.1rem;
+}
+
+.checkbox-list{
+	text-align: left;
+}
+
+@media only screen and (max-width: 768px){
+
+	.filter-cont{
+		width: 70vw;
+		margin:1rem 0.1rem 0.1rem 0.1rem;
+		height: 80vh;
+		padding-top: 4rem;
+		box-shadow:  0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+	}
+}

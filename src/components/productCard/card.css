@@ -1,0 +1,36 @@
+h3{
+	font-size: 1.2rem;
+	font-weight: 800;
+}
+
+p{
+	font-size: 1.2rem;
+	font-weight: 600;
+}
+
+.med-img{
+	padding: 0rem 2rem 0rem 2rem;
+	height:15rem;
+	width: 15rem;
+}
+
+.sm-img{
+	padding: 1rem 0rem 0rem 0rem;
+	height:7rem;
+	width: 7.5rem;
+}
+
+.card-cont{
+	margin-top: 0.5rem;
+}
+
+.sm-card{
+	width:87vw;
+	height: 10rem;
+	margin:0.8rem 0.4rem 0.8rem 0.4rem;
+	border: 1px solid grey;
+}
+
+.modal-body{
+	width:90vw;
+}
